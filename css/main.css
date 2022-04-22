@@ -1,0 +1,196 @@
+/* specification */
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #304041;
+	letter-spacing: 0.05em;
+}
+/*img {
+	max-width: 100%;
+	display: block;
+	object-fit: cover;
+}*/
+* {
+	box-sizing: border-box;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5 {
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+section {
+	padding: 73px 0;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+/* header */
+.header {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, rgba(36, 32, 84, 0.23) 44.44%), url('../img/bruges1.jpg') no-repeat center top / cover;
+    text-align: center;
+    color: #fff;
+    padding: 90px 0 80px;
+ }
+ .logo {
+   display: inline-block;
+ }
+ .offer {
+ 	margin-top: 201px;
+ }
+ .offer__title {
+	font-size: 60px;
+	line-height: 1.45em;
+	letter-spacing: 0.145em;
+	margin-top: 24px;
+}
+.offer__intro {
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 8px 17px;
+	background: #fff;
+	color: #000;
+	border-radius: 78px;
+	display: inline-block;
+	font-weight: 800;
+}
+.offer__text {
+	letter-spacing: 0.05em;
+	font-size: 20px;
+	margin-top: 24px;
+}
+.offer__btn {
+	border-radius: 119px;
+	font-weight: 800;
+	display: block;
+	margin: 0 auto;
+	margin-top: 24px;
+	padding: 18px 0px;
+	background: #FF7E36;	
+	color: #fff;
+	width: 247px;
+	transition: background 0.5s ease;
+}
+.offer__btn:hover {
+	background: #B0490F;
+	transition: background 0.5s ease;
+}
+.arrow-down {
+	background: url('../img/arrow-down.svg');
+	width: 18px;
+	height: 27px;
+	display: block;
+	margin: 217px auto 0;
+	opacity: 0.5;
+	transition: all 0.5s ease;
+}
+.arrow-down:hover {
+	opacity: 1;
+	transition: all 0.5s ease;
+}
+/* 2 section */
+.routes {
+	padding: 145px 0;
+}
+.church {
+display: flex;
+margin: 100px 0;
+}
+.church__wrapper {
+	background: #FFF6F1;
+	padding: 112px 75px;
+}
+.church__text-num {
+	text-transform: uppercase;
+	color: #789AA0;
+}
+.church__img img {
+	height: 779px;
+	width: 476px;
+	object-fit: cover;
+}
+.church__title {
+	font-size: 24px;
+	margin: 20px 0 40px;
+	text-align: left;
+}
+.church__text {
+	line-height: 23px;
+	margin-bottom: 30px;
+}
+.church__arrow-next {
+	display: block;
+	margin-top: 48px;
+	opacity: 0.5;
+	transition: margin-left 0.7s ease;
+}
+.church__arrow-next:hover {
+	margin-left: 20px;
+	transition: margin-left 0.7s ease;
+}
+.btn-ghost {
+	border-radius: 119px;
+	font-weight: 800;
+	display: block;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #B0490F;
+	color: #B0490F; 
+	margin-top: 90px;
+	width: 332px;
+	padding: 18px 49px;
+	text-align: center;
+	transition: background 0.5s ease, color 0.5s ease;
+}
+.btn-ghost:hover {
+	background: #B0490F;
+	color: #fff;
+	transition: background 0.5s ease, color 0.5s ease;
+}
+/* 3 section */
+.gid {
+	background: url('../img/brugesgid.png') no-repeat right center / 50%;
+	padding: 250px 0;
+	margin: 70px 0;
+}
+.gid__wrapper li {
+	margin-bottom: 20px;
+	position: relative;
+	padding-top: 15px;
+	width: 480px;
+ }
+.gid__wrapper li:before {
+	content:'';
+	display: block; 
+	height: 7px; 
+	width: 65px;
+	margin-top: -8px;
+	border-radius: 23px;
+	background: #4EB1B6;
+	position: absolute;
+}
+/*footer*/
+.footer {
+	padding: 145px 0;
+}
+.end {
+	display: flex;
+	color: #5C7677;
+}
+.end__text-right {
+	margin-left: 60px;
+}
